@@ -1,0 +1,77 @@
+
+
+body{
+
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.card{
+        background-color: rgb(223, 218, 188);
+        width: 280px;
+        height: 410px;
+        border-radius: 8px ;
+        overflow: hidden;
+    
+}
+.card img{
+
+    padding: 13px;
+    
+    border-radius: 25px;
+    
+    
+}
+
+.card h1{
+
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(246, 197, 62);
+    margin-top: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 14px 103px 5px 76px;
+}
+.card p{
+
+    text-align: center;
+    font-size: 13px;
+    overflow:hidden;
+    margin-top: -20px;
+} 
+.capsule{
+    padding: 2px 1px 4px 68px;
+    }
+
+ .capsule span{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 7px;
+   
+    
+}
+
+.btn{
+    text-align: center;   
+   
+}
+.btn button{
+    padding: 3px;
+    border-radius: 17px;
+    background-color: rgb(246, 197, 62);
+    width: 113px;
+    height: 37px;
+    border: none;
+}
+.btn button:hover{
+
+    background-color: rgb(20, 75, 16);
+    color:rgb(246, 197, 62) ;
+    transition: all 0.5s  ease-out;
+}
+.card:hover{
+   
+    box-shadow: 0px 1px 20px 0px rgba(209, 209, 36, 0.745);
+    transition: all 0.2s ease-in;
+}
